@@ -1,0 +1,56 @@
+{
+  "goal": "One sentence. The thing the writing is actually for.",
+  "window": { "start": "YYYY-MM-DD", "end": "YYYY-MM-DD" },
+  "north_star": "outcomes",
+
+  "milestones": {
+    "example_milestone_done": false
+  },
+
+  "cadence_targets": {
+    "long_form_per_month": "1-2",
+    "short_form_per_week": "2-3",
+    "submission_followup_days": 14
+  },
+
+  "reduced_capacity_mode": {
+    "active_until": null,
+    "reason": "Why the normal cadence is wrong right now.",
+    "reduced_targets": {
+      "long_form": "optional; skipping is fine",
+      "short_form": "paused",
+      "time_budget": "max ~45 min/day",
+      "always_allowed": "the one or two actions that cost minutes, not hours"
+    }
+  },
+
+  "outcomes": [],
+
+  "submissions": [
+    {
+      "outlet": "",
+      "contact": "",
+      "piece": "",
+      "sent": "YYYY-MM-DD",
+      "last_followup": null,
+      "status": "alive | accepted | declined | stale",
+      "notes": "Exclusivity terms. Whether simultaneous submission was disclosed."
+    }
+  ],
+
+  "weeks": [
+    {
+      "week_start": "YYYY-MM-DD",
+      "long_form": null,
+      "short_form": null,
+      "subscribers": null,
+      "notes": "What happened and why. The reasoning matters more than the counts."
+    }
+  ],
+
+  "_schema_notes": {
+    "outcomes": "{date, who, org, channel, about, status, quality: high|medium|low} — the north star. Never grade audience size against this; different timelines.",
+    "submissions": "One per piece sent out. Disclose simultaneous submissions; some outlets require exclusivity.",
+    "weeks": "One per week. A quiet week gets an entry too."
+  }
+}

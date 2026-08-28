@@ -1,0 +1,11 @@
+# your own filled-in state files — templates/ holds the blanks
+style_guide.md
+topic_watchlist.md
+kpi_log.json
+drafts/
+!templates/style_guide.md
+!templates/topic_watchlist.md
+!templates/kpi_log.json
+
+.env
+.DS_Store
